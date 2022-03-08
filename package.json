@@ -1,0 +1,28 @@
+{
+  "name": "@inveniosoftware/eslint-config-invenio",
+  "version": "1.0.0",
+  "description": "ESLint config/preset used by the Invenio team",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inveniosoftware/eslint-config-invenio.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "author": "Invenio Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inveniosoftware/eslint-config-invenio/issues"
+  },
+  "homepage": "https://github.com/inveniosoftware/eslint-config-invenio#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0",
+    "eslint-plugin-import": ">=2.10"
+  }
+}
